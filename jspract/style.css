@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    /* background-color: #7fffd4; */
+
+    /* height: 600px; */
+}
+.btn{
+    width: 30%;
+    background-color: bisque;
+    border: 1px solid brown;
+    cursor: pointer;
+    transition: ease-in-out 0.6s;
+
+}
+.btn:hover{
+    background-color: blueviolet;
+}
+.container1{
+    margin-left: 25%;
+    padding: 20px;
+    /* margin: auto; */
+    border: 2px solid gold;
+    /* position: relative; */
+    background-color: aqua;
+    /* width: 40rem; */
+    width: 50%;
+}
+h1{
+    text-align: center;
+}
+.number{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    width: 5rem;
+}
+.between{
+    float: right;
+}
+.again{
+     
+    padding: 10px;
+
+}
+.left{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check{
+    margin: 5px;
+    padding: 10px;
+
+}
+.guess{
+    padding: 10px;
+    border: 1px solid brown;
+    width: 50%;
+}
+
+.hidden{
+    display: none;
+}
+.modal{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    text-align: center;
+    right: 0%;
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+    z-index: 3;
+}
+ .overlay{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: 2;
+ background-color: black;
+ opacity: .7;
+
+}
+ .close-model{
+     float: right;
+     padding: 10px;
+     background-color: transparent;
+     border: none;
+     font-size: 16px;
+     font-weight: bold;
+ }
+
+ .container {
+    margin-top: 10%;
+    margin-left: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 705px;
+  }
+  
+  .square {
+    background-color: #1d1d1d;
+    box-shadow: 0 0 2px #000;
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+    transition: 2s ease;
+  }
+  
+  .square:hover {
+    transition-duration: 0s;
+  }
